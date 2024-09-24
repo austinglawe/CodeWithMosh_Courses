@@ -84,4 +84,19 @@ print(course[:])
 
 2.4 - Escape Sequences
 
+# \ - the backslash is an escape character
+# meaning the character after the backslash
+course = "Python \"Programming"
+# another way to write this would be to use single quotes around the string
+print(course)
+
+# Other escape sequences
+## \" - for (")
+## \' - for (')
+## \\ - for (\)
+## \n - for new line
+
+2.5 - Formatted Strings
+
+
 
