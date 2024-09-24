@@ -9,3 +9,9 @@ print("*" * 10)
 x = 1
 y = 2
 unit_price = 3
+
+1.9 - Running Python Code
+print("Hello World!")
+# press Ctrl + Alt + N
+
+1.10 - Python Implementations
