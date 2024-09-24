@@ -47,5 +47,41 @@ course_name = "Python Programming"
 # 3. underscore to separate multiple words (no spaces allowed for variables)
 # 4. A space around the equal sign
 
-2. - 
+2.3 - Strings
+course = "Python Programming"
+# you can use double quotes or single quotes, or even triple quotes
+message = """
+Hi John,
+
+This is Mosh from codewithmosh.com
+
+Blah Blah Blah
+"""
+
+# calling (using) a function called length.
+# Functions take arguments (inputs to these functions) [like 'course' below]
+print(len(course))
+
+# For access to a specific character, use square brackets []
+# 0 is the first index number
+print(course[0])
+
+# you can also do negatives - it will start from the end first
+print(course[-1])
+
+# range of numbers in the indexes are not inclusive
+# meaning this one will take the first 3 characters (0,1,2 or Pyt)
+print(course[0:3])
+
+# You can see below this will start at the third character and go to the end.
+print(course[2:])
+
+# Here you will start from the beginning and go to the thrid character
+print(course[:3])
+
+# If you don't put either, it will give a copy of the original string
+print(course[:])
+
+2.4 - Escape Sequences
+
 
