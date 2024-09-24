@@ -25,4 +25,15 @@ print("Hello World!")
 # 4. What does a linter do?
 ## Answer: A linter is a tool that checks our code for potential errors. Mostly in the category of syntactical errors. So if you have grammatical issues in our code, the linter will tell us before running our code.
 
-2.
+2.1 - Variables
+students_count = 1000  # Integer
+rating = 4.99  # Float
+is_published = False  # Boolean Values (True or False) - Capitalize
+course_name = "Python Programming" # String
+print(students_count)
+print(rating)
+print(is_published)
+
+2.2 - Variable Names
+
+
