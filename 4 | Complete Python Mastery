@@ -15,3 +15,14 @@ print("Hello World!")
 # press Ctrl + Alt + N
 
 1.12 - Quiz
+# 1. What is an expression?
+## Answer: An expression is a piece of code that produces a value
+# 2. Here is an expression, what do you think it's value is?
+#    "*" * 3
+## Answer: ***
+# 3. What is a syntax error?
+## Answer: A syntax error is a type of error that is due to bad syntax or bad grammar in the code
+# 4. What does a linter do?
+## Answer: A linter is a tool that checks our code for potential errors. Mostly in the category of syntactical errors. So if you have grammatical issues in our code, the linter will tell us before running our code.
+
+2.
