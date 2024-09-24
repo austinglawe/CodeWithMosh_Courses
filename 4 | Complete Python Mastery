@@ -1,2 +1,9 @@
 Python Download: https://www.python.org/downloads/
 Editor/IDE: Visual Studio Code... https://code.visualstudio.com/Download
+
+1.5 - Create Your First Pyton Program
+print("Hello World")
+print("*" * 10)
+
+1.6 - Python Extension
+
