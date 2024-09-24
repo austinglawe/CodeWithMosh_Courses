@@ -5,5 +5,7 @@ Editor/IDE: Visual Studio Code... https://code.visualstudio.com/Download
 print("Hello World")
 print("*" * 10)
 
-1.6 - Python Extension
-
+1.8 - Formatting Python Code
+x = 1
+y = 2
+unit_price = 3
