@@ -117,5 +117,32 @@ full = f"{len(first)} {2 + 2}"
 print(full)
 
 2.6 - String Methods
+course = "  PytHon Programming  "
+# Everything in python is an obaject.
+# Objects have 'functions' called methods
+# .upper to convert all characters to uppercase
+print(course.upper())
+# methods don't change the original 'course' variable
+print(course)
+# .lower to convert all to lowercase
+print(course.lower())
+# .title will make the first letter of each word capitalized and the rest lowercase
+print(course.title())
+# .strip will get rid of any 'white' space - meaning any unnecassary spaces
+print(course.strip())
+# .lstrip - removes from the beginning of the string
+print(course.lstrip())
+# .rstrip - removes from the end of the string
+print(course.rstrip())
+# .find - index of 'Pro' - position - where it starts (remember 0 is position 1)
+print(course.find("Pro"))
+# if it is not found in the index, it will equal -1
+print(course.find("pro"))
+# .replace will whaterver you put first with the one you put second
+print(course.replace("P", "J"))
+# expression (peice of code that produces a value) 'in' -- returns a Boolean value (True or False)
+print("Pro" in course)
+# 'Not' Operator. To see if it does or doesn't contain [a] character(s)
+print("Swift" not in course)
 
-
+2.7 - Numbers
