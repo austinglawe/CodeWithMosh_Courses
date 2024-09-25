@@ -146,3 +146,46 @@ print("Pro" in course)
 print("Swift" not in course)
 
 2.7 - Numbers
+# integers (non decimal)
+x = 1
+# floats (decimals)
+x = 1.1
+# complex numbers (i = imaginary number)
+x = 1 + 2j  # a + bi
+# Addition (+)
+print(10 + 3)
+# Subtraction (-)
+print(10 - 3)
+# Multiplication (*)
+print(10 * 3)
+# Division (Floating point number)
+print(10 / 3)
+# Divsion (Integer)
+print(10 // 3)
+# Remainder of the division
+print(10 % 3)
+# Exponent (left to the power of right)
+print(10 ** 3)
+
+# Augmented Assignment Operator
+# x = 10, These two are the exact same: "x = x + 3" = "x += 3"
+x = 10
+print(x)
+x = x + 3
+print(x)
+
+x = 10
+print(x)
+x += 3
+print(x)
+
+2.8 - Working with Numbers
+
+
+
+
+
+
+
+
+
