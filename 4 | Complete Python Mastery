@@ -180,7 +180,21 @@ x += 3
 print(x)
 
 2.8 - Working with Numbers
+# round function, will round the value
+print(round(2.9))
 
+# abs function will give the absolute value
+print(abs(-2.9))
+
+# only so many build in functions for more:
+# use modules like the math module
+# A module is like a separate file with some Python code.
+
+import math
+math.ceil(2.2)
+# https://docs.python.org/3/library/math.html
+
+2.9 - Type Conversion
 
 
 
