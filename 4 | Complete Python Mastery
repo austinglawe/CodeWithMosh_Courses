@@ -1,5 +1,12 @@
 Python Download: https://www.python.org/downloads/
 Editor/IDE: Visual Studio Code... https://code.visualstudio.com/Download
+Create User Profile
+Download extensions: Python, python debugger, Pylint, Pylance, Code Runner, and autopep8
+Settings:
+[X] Check Format On Save
+Code Runner Settings:
+[X] Code-runner: Clear Previous Output
+[]  Code-runner: Show Execution Message
 
 1.5 - Create Your First Pyton Program
 print("Hello World")
