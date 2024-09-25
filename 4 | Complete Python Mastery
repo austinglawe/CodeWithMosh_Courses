@@ -1,3 +1,4 @@
+Key programs/settings...
 Python Download: https://www.python.org/downloads/
 Editor/IDE: Visual Studio Code... https://code.visualstudio.com/Download
 Create User Profile
@@ -7,7 +8,7 @@ Settings:
 Code Runner Settings:
 [X] Code-runner: Clear Previous Output
 []  Code-runner: Show Execution Message
-
+___________________________________________________________________________________________________________
 1.5 - Create Your First Pyton Program
 print("Hello World")
 print("*" * 10)
