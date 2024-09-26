@@ -357,7 +357,20 @@ else:
     print("Not Eligible")
 
 3.5 - Short-circuit Evaluation
+high_income = True
+good_credit = True
+student = True
 
+if high_income and good_credit and not student:
+    print("Eligible")
+else:
+    print("Not Eligible")
+
+# Short circuit means, it will execute the if statements as long as it is true
+# as soon as it becomes false, it will go to the elif, else or end the if statement (depending on how you set it up)
+# logical operators are short circuit.
+
+3.6 - Chaining Comparison Operators
 
 
 
