@@ -518,6 +518,45 @@ print(f"We have {count} even numbers")
 #### Be sure to be more specific (don't use x as the holder)
 
 4.1 - Defining Functions
+# build your own function
+# naming functions: meaningful, descriptive, use lowercase letters, and underscores
+def greet():
+    print("Hi there")
+    print("Welcome aboard")
+
+
+# add 2 line breaks (pep8 recommended)
+greet()
+
+4.2 - Arguments
+# build your own function
+# naming functions: meaningful, descriptive, use lowercase letters, and underscores
+# def greet():
+# print("Hi there")
+# print("Welcome aboard")
+
+
+# add 2 line breaks (pep8 recommended)
+# greet()
+
+
+# What is the difference between the greet() and print() functions?
+# Answer: The difference is that this print function takes an input,
+# whereas our greet function doesn't take any inputs.
+
+# to add input, you can add parameters.
+# meaning between the 2 paratheses, you can add the inputs.
+
+def greet(first_name, last_name):
+    print(f"Hi {first_name} {last_name}")
+    print("Welcome aboard")
+
+
+greet("Mosh", "Hamedani")
+greet("John", "Smith")
+# if you add this function, the arguments are REQUIRED or the function won't run.
+# parameter is when defining the function - input that you define for your function
+# an argument is the value given to the parameter.
 
 
 
