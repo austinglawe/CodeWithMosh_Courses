@@ -626,6 +626,63 @@ def multiply(*numbers):
 print(multiply(2, 3, 4, 5))
 
 4.7 xxargs
+def save_user(**user):
+    print(user["id"])
+
+
+# you can add keyword arguments to this type
+save_user(id=1, name="John", age=22)
+
+# this is called a dictionary
+# this is a complex type or data structure
+# more on this later.
+
+4.8 - Scope
+def greets():
+    message = "a"
+
+
+# print(message)
+# an error will happen because the variable 'message' is a scope
+# scope means it only exists within a function.
+# it's a local variable
+# meaning you can do something like this:
+
+
+def greet(name):
+    message = "a"
+
+
+def send_email(name):
+    message = "b"
+
+# the name and message in these different functions do not affect each other, because they only exist in that function.
+# helps save memory.
+# a global variable would be available in any function.
+# global functions go outside of functions though.
+# they stay in the memory for a longer period of time.
+# don't use global variables too often.
+
+
+message = "a"
+
+
+def get(name):
+    message = "b"
+
+
+get("Mosh")
+print(message)  # returns "a" - because global variable is not changed
+
+
+def get1(name):
+    global message  # using this is very bad practice.
+    message = "b"
+
+
+get1("Mosh")
+print(message)
+# the get1 function here changes the global function because global was called to it
 
 
 
