@@ -711,7 +711,50 @@ print(multiply(1, 2, 3))
 # To autocomplete a function, start typing and then in the intellicence, select the one to finish the word, then press enter
 # for the autocomplete, it doesn't even need to be the first characters, but may be easiest that way??
 
-4. - 
+4.12 - Exercise
+and 
+4.13 - Solution
+# Fizz Buzz Algorithm
+
+# the fizz_buzz function should take an input and depending on the input we give it, it returns different results.
+# Here are the rules:
+# If the input that we give it is divisible by 3, it will return the string "fizz"
+# If the input is divisible by 5, it will return 'Buzz'
+# If it is divisible by 3 AND 5, it will return 'FizzBuzz'
+# For any other numbers it will return the same input.
+
+# My answer:
+def fizz_buzz(input):
+    if input == 0:
+        return input
+    elif input % 3 == 0 and input % 5 == 0:
+        return "FizzBuzz"
+    elif input % 3 == 0:
+        return "Fizz"
+    elif input % 5 == 0:
+        return "Buzz"
+    else:
+        return input
+
+
+print(fizz_buzz(0))
+
+
+# CodewithMosh Answer:
+def fizz_buzz(input):
+    if (input % 3 == 0) and (input % 5 == 0):
+        return "FizzBuzz"
+    elif input % 3 == 0:
+        return "Fizz"
+    elif input % 5 == 0:
+        return "Buzz"
+    else:
+        return input
+
+## This is good for putting the parentheses to separate the two conditions in the first if.
+## However, I would say that if you pass 0 through this, then it actually doesn't work.
+## This would be why the additional condition, if 0 is the input, then you should return the input as well.
+
 
 
 
