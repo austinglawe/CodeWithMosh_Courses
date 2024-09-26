@@ -371,6 +371,22 @@ else:
 # logical operators are short circuit.
 
 3.6 - Chaining Comparison Operators
+# age should be between 18 and 65
+age = 22
+if age >= 18 and age < 65:
+    print("Eligible")
+
+# in math: 18 <= age < 65
+# you can do the same in python, and should use this:
+age = 70
+if 18 <= age < 65:
+    print("Eligible")
+else:
+    print("Not eligible")
+
+# this is called "chaining comparison operators"
+
+3.7 - Quiz
 
 
 
