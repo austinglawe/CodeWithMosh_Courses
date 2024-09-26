@@ -302,6 +302,66 @@ message = "Eligible" if age >= 18 else "Not Eligible"
 print(message)
 
 3.4 - Logical Operators
+# and, or, not
+
+# and operator, both need to be true
+high_income = True
+good_credit = True
+
+if high_income and good_credit:  # no need to add ==True, it's redundant
+    print("Eligible")
+
+high_income = False
+good_credit = True
+
+if high_income and good_credit:  # no need to add ==True, it's redundant
+    print("Eligible")
+else:
+    print("Not Eligible")
+
+
+# or operator, only 1 needs to be true
+high_income = False
+good_credit = True
+
+if high_income or good_credit:  # no need to add ==True, it's redundant
+    print("Eligible")
+else:
+    print("Not Eligible")
+
+# not operator, it inverses the value of the Boolean
+high_income = False
+good_credit = True
+student = True
+
+if not student:
+    print("Eligible")
+else:
+    print("Not Eligible")
+
+student = False
+if not student:
+    print("Eligible")
+else:
+    print("Not Eligible")
+
+
+# More complicated:
+high_income = False
+good_credit = True
+student = False
+
+if (high_income or good_credit) and not student:
+    print("Eligible")
+else:
+    print("Not Eligible")
+
+3.5 - Short-circuit Evaluation
+
+
+
+
+
 
 
 
