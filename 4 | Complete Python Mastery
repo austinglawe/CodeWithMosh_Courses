@@ -587,6 +587,20 @@ print(message)
 # file.write(message)
 
 4.4 - Keyword Arguments
+def increment(number, by):
+    return number + by
+
+
+result = increment(2, 1)
+print(result)
+
+# This is the same
+print(increment(2, 1))
+
+# This can make it more readable, when you have multiple arguments:
+print(increment(2, by=1))
+
+4.5 - Default Arguments
 
 
 
