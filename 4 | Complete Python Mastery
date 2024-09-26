@@ -243,6 +243,26 @@ bool("False") # True
 ## Answer: True
 
 3.1 - Comparison Operators
+print(10 > 3)  # True
+print(10 >= 3)  # True
+print(10 < 20)  # True
+print(10 <= 20)  # True
+print(10 == 10)  # True
+print(10 == "10")  # False
+print(10 != "10")  # True
+print("bag" > "apple")  # True (because it goes alphabetical order)
+print("bag" == "BAG")  # False
+# the reason this is false is that every character has it's own numerical representation.
+print(ord("b"))
+print(ord("a"))
+print(ord("B"))
+print("Bag" > "apple")
+
+3.2 - Conditional Statements
+
+
+
+
 
 
 
