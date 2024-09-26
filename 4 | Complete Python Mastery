@@ -601,6 +601,14 @@ print(increment(2, 1))
 print(increment(2, by=1))
 
 4.5 - Default Arguments
+# make by optional parameter
+# hoewever, you cannot add required parameters after optional ones. So all required ones MUST come first.
+def increment(number, by=1):
+    return number + by
+
+
+print(increment(2))  # uses the 1 that was set as the default
+print(increment(2, 5))
 
 
 
