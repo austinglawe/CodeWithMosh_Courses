@@ -557,9 +557,36 @@ greet("John", "Smith")
 # if you add this function, the arguments are REQUIRED or the function won't run.
 # parameter is when defining the function - input that you define for your function
 # an argument is the value given to the parameter.
+# you can't exclude one argument here. Later we will learn how to define optional parameters.
+
+4.3 - Types of Functions
 
 
+def greet(name):
+    print(f"Hi {name}")
 
+
+# Two types of functions in programming:
+# Type 1- Perform a task (print)
+# Type 2- Return a value (round)
+
+round(1.9)
+
+# Type 2 is usable in other ways than carrying out the task.
+
+
+def get_greeting(name):
+    return f"Hi {name}"
+
+
+message = get_greeting("Mosh")
+print(message)
+
+# we will learn more later on this:
+# file = open("content.txt", "w")
+# file.write(message)
+
+4.4 - Keyword Arguments
 
 
 
