@@ -224,7 +224,23 @@ bool(5) # True
 bool("") # False
 bool("False") # True
 
-
+2.10 - Quiz
+# 1. What are the built in primitive types in python?
+## Answer: Strings, Booleans, and Numbers. (Numbers can be integers, floats, or complex numbers)
+# 2. We have this variable fruit, set to "Apple", what will we see in the terminal when we execute the code.
+# fruit = "Apple"
+# print(fruit[1])
+## Answer: p
+# 3. What about if we add a colon and -1 like:
+# fruit = "Apple"
+# print(fruit[1:-1])
+## Answer: ppl -- after the colon is not inclusive.
+# 4. What is the result of this expression:
+# 10 % 3
+## Answer: 1
+# 5. What will we see when we execute this code:
+# print(bool("False"))
+## Answer: True
 
 
 
