@@ -460,6 +460,28 @@ for item in shopping_cart:
     print(item)
 
 3.12 - While Loops
+number = 100
+
+while number > 0:
+    print(number)
+    number //= 2  # same as: number = number // 2 (// is integer division)
+
+# not iterating over a iterable object.
+# rather we are evaulating a condition and repeating a task
+
+command = ""
+while command != "quit":
+    command = input(">")
+    print("ECHO", command)
+
+# quit is different from QUIT
+
+command = ""
+while command.lower() != "quit":
+    command = input(">")
+    print("ECHO", command)
+
+3.13 - Infinite Loops
 
 
 
