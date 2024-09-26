@@ -490,8 +490,34 @@ while True:
 
 # always have a way to break out of the loop.
 
-3.14 - 
+3.14 - Exercise
+# 1. Write a program to display the even numbers 1-10
+# Meaning we should see - 2, 4, 6, 8.
+# Then print the message "We have 4 even numbers"
+# you can't step over numbers, meaning you can't use the third argument in range.
+# you need to call the range function 1 and 10
+# like so: range(1, 10)
+# I want you to iterate over all the numbers between 1 to 10, check if each number is an even number and then print it in the terminal
 
+# My Answer:
+count = 0
+for x in range(1, 10):
+    if x % 2 == 0:
+        print(x)
+        count += 1
+print(f"We have {count} even numbers")
+
+# Solution:
+count = 0
+for number in range(1, 10):
+    if number % 2 == 0:
+        count += 1
+        print(number)
+print(f"We have {count} even numbers")
+
+#### Be sure to be more specific (don't use x as the holder)
+
+4.1 - Defining Functions
 
 
 
