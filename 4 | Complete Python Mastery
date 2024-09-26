@@ -610,7 +610,22 @@ def increment(number, by=1):
 print(increment(2))  # uses the 1 that was set as the default
 print(increment(2, 5))
 
+4.6 - xargs
+# lists are defined by square brackets []
+# tuples are defined by parentheses ()
+# you cannot modify the tuples' collection, cannot add a new object
+# tuples are iterable
+def multiply(*numbers):
+    total = 1
+    for number in numbers:
+        # total = total * number --- augmented assignment operator below
+        total *= number
+    return total
 
+
+print(multiply(2, 3, 4, 5))
+
+4.7 xxargs
 
 
 
