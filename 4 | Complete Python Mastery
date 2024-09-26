@@ -482,7 +482,15 @@ while command.lower() != "quit":
     print("ECHO", command)
 
 3.13 - Infinite Loops
+while True:
+    command = input(">")
+    print("ECHO", command)
+    if command.lower() == "quit":
+        break
 
+# always have a way to break out of the loop.
+
+3.14 - 
 
 
 
