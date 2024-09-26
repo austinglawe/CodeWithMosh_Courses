@@ -686,7 +686,32 @@ print(message)
 
 
 4.9 - Debugging
+def multiply(*numbers):
+    total = 1
+    for number in numbers:
+        total *= number
+        return total
+    # return total
 
+
+print("start")
+print(multiply(1, 2, 3))
+# press F9 to add a breakpoint
+# to execute 1 statement at a time, press F10
+
+4.10 - VSCode Coding Tricks - Windows
+# To go to the end of a line press 'End' on the keyboard
+# To move the cursor to the beginning of the line, press 'Home'
+# To move the cursor to the beginning of the file, press Ctrl + Home
+# To move the cursor to the end of the file, press Ctrl + End
+# To select a line, you can hold Ctrl + Shift + [Up or Down]
+# To move a selected line, press Alt + [Up or Down]
+# To duplicate a line, press Shift + Alt + Down
+# To convert a line or multiple lines into a comment (or remove them from being a comment) press Ctrl + / (the '?/' key on the keyboard)
+# To autocomplete a function, start typing and then in the intellicence, select the one to finish the word, then press enter
+# for the autocomplete, it doesn't even need to be the first characters, but may be easiest that way??
+
+4. - 
 
 
 
