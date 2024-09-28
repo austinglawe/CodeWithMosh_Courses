@@ -873,7 +873,40 @@ print(letters.count("d"))
 print(letters.count("a"))
 
 5.7 - Sorting Lists
+numbers = [3, 51, 2, 8, 6]
+# Ascending order (default of .sort() method)
+numbers.sort()
+print(numbers)
+# Descending:
+numbers.sort(reverse=True)
+print(numbers)
 
+# to not change the original list you can use the sorted function
+numberz = [3, 51, 2, 8, 6]
+print(sorted(numberz, reverse=True))  # Descending
+print(numberz)
+
+# For sorting tuples within a list:
+items = [
+    ("Product1", 10),
+    ("Product2", 9),
+    ("Product3", 12),
+]
+# doing the following won't sort it, because python doesn't know how to sort tuples
+items.sort()
+print(items)
+
+# Instead we need to create a function.
+
+
+def sort_item(item):
+    return item[1]  # based on price (second piece of tuple)
+
+
+items.sort(key=sort_item, reverse=True)
+print(items)
+
+5.8 - Lambda Functions
 
 
 
