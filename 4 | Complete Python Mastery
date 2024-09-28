@@ -825,6 +825,7 @@ for index, letter in enumerate(letters):
 for index, letter in enumerate(letters):
     print(f"Index: {index}, Letter: {letter}")
 
+5.5 - Adding or Removing Items
 
 
 
