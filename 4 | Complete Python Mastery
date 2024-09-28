@@ -787,6 +787,25 @@ print(letters[::2])  # you can step over lists this way (step over by 2)
 print(letters[::-1])  # reverse order
 
 5.3 - List Unpacking
+numbers = [1, 2, 3]
+# first = numbers[0]
+# second = numbers[1]
+# third = numbers[2]
+# instead of the above, you can unpack the list into multiple variables
+first, second, third = numbers
+# the number of items on the left side of the equation (the variables) should be equal to the number of items in the list.
+# an error will happen if you don't.
+number = [1, 2, 3, 4, 4, 4, 4, 4, 4, 4, 9]
+# if you only want the first two items though, you can pull them into 2 variable and pack the rest into a new list:
+one, two, *other = number
+print(one)
+print(other)
+# unpacking and packing.
+first, *other, last = number
+print(first, last)
+print(other)
+
+5.4 - Looping over lists
 
 
 
