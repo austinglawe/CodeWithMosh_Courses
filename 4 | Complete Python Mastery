@@ -959,6 +959,19 @@ filtered = list(filter(lambda item: item[1] >= 10, items))
 print(filtered)
 
 5.11 - List Comprehensions
+items = [
+    ("Product1", 10),
+    ("Product2", 9),
+    ("Product3", 12),
+]
+
+prices = [item[1] for item in items]
+print(prices)
+
+filtered = [item for item in items if item[1] >= 10]
+print(filtered)
+
+5.12 - Zip Function
 
 
 
