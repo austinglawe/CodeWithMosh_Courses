@@ -929,6 +929,24 @@ items.sort(key=lambda item: item[1])
 print(items)
 
 5.9 - Map Function
+items = [
+    ("Product1", 10),
+    ("Product2", 9),
+    ("Product3", 12),
+]
+# each item in the list is a tuple of two items
+# We are only interested in the price of these items. So we want a list of only numbers
+
+prices = []
+for item in items:
+    prices.append(item[1])
+
+print(prices)
+
+# There is a better and more elegant way. Using the 'map' function
+
+prices = list(map(lambda item: item[1], items))
+print(prices)
 
 
 
