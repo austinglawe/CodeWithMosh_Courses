@@ -776,7 +776,17 @@ print(len(numbers))
 # Dictionaries
 
 5.2 - Accessing Items
+letters = ["a", "b", "c", "d"]
+print(letters)
+print(letters[0])
+print(letters[-1])
+letters[0] = "A"
+print(letters)
+print(letters[0:3])
+print(letters[::2])  # you can step over lists this way (step over by 2)
+print(letters[::-1])  # reverse order
 
+5.3 - List Unpacking
 
 
 
