@@ -860,7 +860,19 @@ print(letters)
 letters.clear()
 print(letters)
 
+5.6 - Finding Items
+letters = ["a", "b", "c", "a"]
+print(letters.index("a"))
+# .index will return the first occurrance's index number
+# if you were to try to find an object that wasn't in the list you would have an error come back:
+# print(letters.index("d"))
+# to check if it is in the list, you can use the 'in' operator:
+if "d" in letters:
+    print(letters.index("d"))
+print(letters.count("d"))
+print(letters.count("a"))
 
+5.7 - Sorting Lists
 
 
 
