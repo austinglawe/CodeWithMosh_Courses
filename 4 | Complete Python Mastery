@@ -806,6 +806,24 @@ print(first, last)
 print(other)
 
 5.4 - Looping over lists
+letters = ["a", "b", "c"]
+
+for letter in letters:
+    print(letter)
+
+# enumerate will give a tuple (in this case, giving the position and each letter)
+for letter in enumerate(letters):
+    print(letter)
+# tuple - read only, and cannot add items to it
+
+for letter in enumerate(letters):
+    print(letter[0], letter[1])
+
+for index, letter in enumerate(letters):
+    print(index, letter)
+
+for index, letter in enumerate(letters):
+    print(f"Index: {index}, Letter: {letter}")
 
 
 
