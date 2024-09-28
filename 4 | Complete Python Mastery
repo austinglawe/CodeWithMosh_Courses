@@ -826,6 +826,39 @@ for index, letter in enumerate(letters):
     print(f"Index: {index}, Letter: {letter}")
 
 5.5 - Adding or Removing Items
+letters = ["a", "b", "b", "c", "d", "e", "f", "g"]
+
+# Add to the end (.append(what to add))
+letters.append("h")
+print(letters)
+
+# Add to a specific position (.insert([index, what to add]))
+letters.insert(0, "-")
+print(letters)
+
+# Remove from end (.pop())
+letters.pop()
+print(letters)
+
+# Remove from specific position (.pop([position]))
+letters.pop(0)
+print(letters)
+
+# To remove an object that you aren't sure of the position, but know what it is in the list
+# Use .remove(what you want to remove)
+# note: this will find the find occurrence and only remove that one.
+letters.remove("b")
+print(letters)
+
+# If you had multiple "b"'s you would need to create a loop to get rid of each individually.
+
+# to delete a range of items use del
+del letters[0:3]
+print(letters)
+
+# To remove all items from the list use (.clear())
+letters.clear()
+print(letters)
 
 
 
