@@ -1013,7 +1013,35 @@ if not queue:
     print(queue)
 
 5.15 - Tuples
+point1 = (1, 2)
+point2 = 1, 2
+point3 = 1
+point4 = 1,
+point5 = ()
+print(type(point1))
+print(type(point2))
+print(type(point3))
+print(type(point4))
+print(type(point5))
+point6 = (1, 2) + (3, 4)
+print(point6)
+point7 = (1, 2) * 3
+print(point7)
+point8 = tuple([1, 2])
+point9 = tuple("Hello World")
+print(point8)
+print(point9)
+point10 = (1, 2, 3)
+print(point10[0:2])
+x, y, z = point10
+if 3 in point10:
+    print("exists")
 
+# Below will bring an error ('tuple' object does not support item assignment)
+# point10[0] = 10  ## Cannot be changed
+# Tuples are used to prevent data from being changed.
+
+5.16 - Swapping Variables
 
 
 
