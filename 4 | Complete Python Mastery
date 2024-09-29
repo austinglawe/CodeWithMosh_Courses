@@ -998,7 +998,21 @@ print("redirect", browsing_session[-1])
 if not browsing_session:
     browsing_session[-1]
 
-5.14
+5.14 - Queues
+# q has the 'FIFO' behavior
+# 'FIFO' - First In Last Out
+# resembles a queue in the real world (line of people to get in)
+from collections import deque
+queue = deque([])
+queue.append(1)
+queue.append(2)
+queue.append(3)
+queue.popleft()
+print(queue)
+if not queue:
+    print(queue)
+
+5.15 - Tuples
 
 
 
