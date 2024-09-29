@@ -1042,7 +1042,28 @@ if 3 in point10:
 # Tuples are used to prevent data from being changed.
 
 5.16 - Swapping Variables
+x = 10
+y = 11
 
+# To swap the variables above, you could use a third variable like:
+z = x
+x = y
+y = z
+
+print(x)
+print(y)
+
+# In python the third variable is not required though.
+a = 1
+b = 2
+
+a, b = b, a
+# This is like a tuple, it is exactly the same as saying a, b = (11, 10)
+
+print(a)
+print(b)
+
+5.17 - Arrays
 
 
 
