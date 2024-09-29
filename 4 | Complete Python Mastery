@@ -980,7 +980,25 @@ list2 = [10, 20, 30]
 print(list(zip("abc", list1, list2)))
 
 5.13 - Stacks
+# When you build stacks. The last one you put on the stack, is the first one you can remove.
+# This is a behavior called "LIFO" - Last In - First Out
+browsing_session = []
+# add to the stack - use .append
+browsing_session.append(1)
+browsing_session.append(2)
+browsing_session.append(3)
+print(browsing_session)
+# remove from the stack - use .pop
+last = browsing_session.pop()
+print(last)
+print(browsing_session)
+# to take the last object in the stack use [-1]
+print("redirect", browsing_session[-1])
+# to check to make sure there is something in the stack. use the not operator
+if not browsing_session:
+    browsing_session[-1]
 
+5.14
 
 
 
