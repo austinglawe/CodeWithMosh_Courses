@@ -1137,6 +1137,79 @@ for key, value in point.items():
     print(key, value)
 
 5.20 - Dictionary Comprehensions
+# values = []
+# for x in range(5):
+#     values.append(x * 2)
+
+# [expression for item in items]
+# The line below is the same as the 3 lines above
+# Lists
+values = [x * 2 for x in range(5)]
+print(values)
+
+# Sets
+values = {x * 2 for x in range(5)}
+print(values)
+
+# Dictionary - need keys
+values = {x: x * 2 for x in range(5)}
+print(values)
+
+# Below is the same as above. So the above is simplier.
+# values = {}
+# for x in range(5):
+#     values[x] = x * 2
+
+# Tuples - returns 'generator object' - more on that next.
+values = (x * 2 for x in range(5))
+print(values)
+
+5.21 - Generator Expressions
+from sys import getsizeof
+
+
+values = [x * 2 for x in range(10)]
+for x in values:
+    print(x)
+print(values)
+
+# (Tuple) Generator Objects are iterable. Not stored like they are in lists.
+
+value = (x * 2 for x in range(10))
+for x in value:
+    print(x)
+print(value)
+
+
+list_size = [x * 2 for x in range(100)]  # list object
+generator_size = (x * 2 for x in range(100))  # generator object
+print("list:", getsizeof(list_size), "bytes")
+print("gen:", getsizeof(generator_size), "bytes")
+
+
+list_size = [x * 2 for x in range(10000000)]  # list object
+generator_size = (x * 2 for x in range(10000000))  # generator object
+print("list:", getsizeof(list_size), "bytes")
+print("gen:", getsizeof(generator_size), "bytes")
+
+5.22 - Unpacking Operator
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
