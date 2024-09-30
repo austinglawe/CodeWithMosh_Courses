@@ -8,6 +8,7 @@ Settings:
 Code Runner Settings:
 [X] Code-runner: Clear Previous Output
 []  Code-runner: Show Execution Message
+Type Code https://docs.python.org/3/library/array.html
 ___________________________________________________________________________________________________________
 1.5 - Create Your First Pyton Program
 print("Hello World")
@@ -1064,6 +1065,47 @@ print(a)
 print(b)
 
 5.17 - Arrays
+# [1, 2, 3]
+# Arrays are best for large list of integers.
+# 10,000 or more
+
+# python3 Type Code
+# https://docs.python.org/3/library/array.html
+# Arrays are for integers only - based on typecode
+
+from array import array
+numbers = array("i", [1, 2, 3])
+# numbers.append()
+# numbers.insert()
+# numbers.pop()
+# numbers.remove()
+# numbers[]
+
+5.18 - Sets
+# Set - unordered collection with no duplicates
+numbers = [1, 1, 2, 3, 4]
+# uniques = set(numbers)
+# second = {1, 4}
+# second.add(5)
+# second.remove(5)
+# len(second)
+# print(uniques)
+first = set(numbers)
+second = {1, 5}
+
+# All unique items between the two sets
+print(first | second)
+# All unique values in BOTH sets
+print(first & second)
+# Difference between two sets - meaning the ones that are in the first set that aren't in the second.
+print(first - second)
+# symmetric difference - this returns the ones that are in first and in second but aren't in both.
+print(first ^ second)
+
+# Sets cannot do indexing
+# meaning - print(first[0]) would come back as an error.
+if 1 in first:
+    print("yes")
 
 
 
