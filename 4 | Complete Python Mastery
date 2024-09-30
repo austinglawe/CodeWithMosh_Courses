@@ -1193,6 +1193,35 @@ print("list:", getsizeof(list_size), "bytes")
 print("gen:", getsizeof(generator_size), "bytes")
 
 5.22 - Unpacking Operator
+# Unpacking Operator can take out individual values in any iterable.
+numbers = [1, 2, 3]
+print(numbers)
+print(1, 2, 3)
+
+# using * in front, this will unpack them similiar to 1 2 3 (not in a list)
+print(*numbers)
+# In JavaScript you use ... for this same function
+
+values = list(range(5))
+print(values)
+# The code below is the same as the code above
+values = [*range(5), *"Hello"]
+print(values)
+
+first = [1, 2]
+second = [4, 5]
+third = [3]
+values = [*first, *third, *second]
+print(values)
+
+# Unpack dictionaries
+# if you have multiple keys with different values, the last value will be used (x will return 10 not 1)
+first = {"x": 1}
+second = {"x": 10, "y": 2}
+combined = {**first, **second, "z": 1}
+print(combined)
+
+5.23 - Exercise
 
 
 
