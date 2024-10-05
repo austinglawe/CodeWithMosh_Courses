@@ -1243,8 +1243,25 @@ char_frequency_sorted = sorted(
 print(char_frequency_sorted[0])
 
 6.1 - Exceptions
+# numbers = [1, 2]
+# print(numbers[3])
+# It will bring back this error message.
+# #File "c:\Users\austi\Desktop\HelloWorld\App.Py", line 2, in <module>
+#     print(numbers[3])
+#           ~~~~~~~^^^
+# IndexError: list index out of range
+
+# The first part is saying where it occurred (line 2 of this file)
+# The second line is saying the statement that caused the error
+# This second line is also called, this statement 'threw an exception'
+# The last line shows which error occurred.
 
 
+# age = int(input("Age: "))
+# if you run this is the terminal and type a string instead of number.
+# it will bring back a ValueError
+
+6.2 - Handling Exceptions
 
 
 
