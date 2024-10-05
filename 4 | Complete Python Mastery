@@ -1262,6 +1262,17 @@ print(char_frequency_sorted[0])
 # it will bring back a ValueError
 
 6.2 - Handling Exceptions
+try:
+    age = int(input("Age: "))
+except ValueError as ex:
+    print("You didn't enter a valid age.")
+    # print(ex)
+    # print(type(ex))
+else:
+    print("No exceptions were thrown")
+print("Execution Continues.")
+
+6.3 - Handling Different Exceptions
 
 
 
